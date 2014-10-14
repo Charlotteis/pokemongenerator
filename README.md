@@ -1,4 +1,5 @@
 Randomly generating a brand new pokemon
+Check it out live here: [Pokemon Generator](http://charlotteis.dreamhosters.com/pokemongenerator/)
 
 Uses the [Poke Api](http://pokeapi.co)
 
