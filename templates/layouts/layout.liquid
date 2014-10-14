@@ -20,6 +20,8 @@
         </div>
         <!-- Script block allowing child pages to inject their own scripts -->
         {% block scripts %}{% endblock %}
-        {{ "index.js" | asset_url | script_tag }}
+        {{ "jquery.js" | asset_url | script_tag }}
+        {{ "jqueryimplementation.js" | asset_url | script_tag }}
+        <!-- {{ "index.js" | asset_url | script_tag }} -->
     </body>
 </html>
