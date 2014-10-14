@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Empty</title>
+        <title>Random Pokemon Generator</title>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
         <!-- Styles -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
         <link href="assets/css/style.min.css" rel="stylesheet" type="text/css" media="all"/>
-
 
     </head>
     <body>
@@ -22,11 +21,15 @@
               <span>Name: </span>
               <span id="name"></span>
             </h2>
+
             <h2 class="species">
               <span>Type: </span>
               <span id="types"></span>
             </h2>
-            <img src="" id="sprite">
+
+            <div class="sprite">
+                <img src="" id="sprite">
+            </div>
 
             <div class="abilities">
               <h3>Abilities</h3>
@@ -37,10 +40,10 @@
                 <li>Ability Four</li>
               </ul>
             </div>
+
             <button id="generate" role="button">Generate!</button>
           </div>
         </main>
-
 
         <script src="assets/scripts/index.min.js"></script>
     </body>

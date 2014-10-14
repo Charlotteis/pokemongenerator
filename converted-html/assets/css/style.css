@@ -28,6 +28,9 @@ img {
 .species {
   text-align: center; }
 
+.sprite {
+  height: 100px; }
+
 .abilities {
   margin: 30px 25px;
   height: 160px; }
